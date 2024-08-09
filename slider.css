@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    margin: 100px 0 0 200px;
+    width: 80%;
+    height: 450px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover{
+    width: 25%;
+}
+
